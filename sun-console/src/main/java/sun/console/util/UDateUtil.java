@@ -1,4 +1,4 @@
-package sun.util;
+package sun.console.util;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

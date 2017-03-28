@@ -1,6 +1,6 @@
 package sun.console.base.dao;
 
-import sun.util.UPageBeanUtil;
+import sun.console.util.UPageBeanUtil;
 
 import java.util.List;
 import java.util.Map;

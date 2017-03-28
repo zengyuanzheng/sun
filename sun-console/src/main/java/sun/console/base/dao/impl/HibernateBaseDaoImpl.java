@@ -6,7 +6,7 @@ import org.hibernate.transform.Transformers;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import sun.console.base.dao.IHibernateBaseDao;
-import sun.util.UPageBeanUtil;
+import sun.console.util.UPageBeanUtil;
 
 import java.lang.reflect.ParameterizedType;
 import java.util.ArrayList;
