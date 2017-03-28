@@ -4,3 +4,5 @@
         spring
         spring mvc
         redis
+        druid
+        
