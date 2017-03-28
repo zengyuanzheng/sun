@@ -25,6 +25,8 @@
         <version.mysql>5.1.34</version.mysql>
         <version.druid>1.0.12</version.druid>
         <version.aspectj>1.8.10</version.aspectj>
+        <version.jedis>2.9.0</version.jedis>
+        <version.data.redis>1.7.8.RELEASE</version.data.redis>
     </properties>
 
     <dependencies>
@@ -77,6 +79,12 @@
             <artifactId>spring-test</artifactId>
             <version>${version.spring}</version>
             <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.data</groupId>
+            <artifactId>spring-data-redis</artifactId>
+            <version>${version.data.redis}</version>
         </dependency>
 
         <dependency>
@@ -142,6 +150,15 @@
             <artifactId>aspectjweaver</artifactId>
             <version>${version.aspectj}</version>
         </dependency>
+
+        <dependency>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
+            <version>${version.jedis}</version>
+        </dependency>
+
+
+
 
     </dependencies>
 

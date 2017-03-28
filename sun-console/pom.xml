@@ -26,8 +26,6 @@
         </dependency>
     </dependencies>
 
-
-
     <build>
         <finalName>sun-console</finalName>
     </build>
